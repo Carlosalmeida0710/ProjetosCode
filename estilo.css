@@ -1,0 +1,87 @@
+
+Body{
+    margin: 0
+  }
+  .fundo {
+    background-image:url(https://img.freepik.com/vetores-gratis/padrao-de-grade-de-losango-dourado-sem-costura-em-fundo-preto_53876-97589.jpg?w=900);
+  background-size:100%;
+  margin-top- 25px;
+   
+  }
+  .logo-imerssao{
+    text-align:center;
+    margin-botton:20px;
+  }
+  .logo-imerssao img{
+    width: 15%
+  }
+  
+  .infos{
+    color: white;
+    font-family: arial,helvetica;
+    font-size:20px;
+    text-align: center;
+  }
+  
+  .texto{
+    margin: 0;
+  }
+  
+  
+  
+  .inputs{
+      display: flex;
+      justify-content:center;
+      height: 37px;
+      width: 295px;
+      margin:auto;
+      margin-top:15px;
+    border-radius:20px;
+  }
+  .first{
+    display:flex;
+    justify-content: flex-start;
+  }
+  .second{
+    display:flex;
+    justify-content: flex-end;
+  }
+  
+  .botao{
+      font-weight: 500;
+      font-size: 20px;
+      font-family: monospace;
+      background: rgb(172, 36, 63);
+      text-align: center;
+      padding: 15px 65px;
+      margin: auto;
+      display: table;
+      margin-top: 40px;
+      border-box: 30px;
+  }
+  
+  .tela{
+     background:rgba(255, 255, 255, 0.1);
+     backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px;)
+  }
+  
+  .suaNota{
+      margin-top: 10px;
+      font-family: sans-serif;
+      display: inline-block;
+  }
+  
+  .notareal{
+      font-family: sans-serif;
+      display: inline-block;
+      margin-left: 5px;
+  }
+  
+  
+  .passouounao{
+      font-family: sans-serif;
+      margin-top: 0px;
+  
+  }
+  

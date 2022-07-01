@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link rel="stylesheet" type="text/css" href="./estilo.css">
+</head>
+<body class="fundo">
+    <div class="logo-imerssao">
+       <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg">         
+    </div>
+
+    <div class="infos">
+       <h1 class="texto">Calculadora de Média</h1>
+       <p class="texto">Descubra qual a sua média do ano para saber se passou!</p>   
+      <div class="tela">
+        <h2 class="suaNota" id="suaNota">Sua nota foi:</h2>
+        <h2 class="notareal" id="notareal"></h2>
+        <h3 class="passouounao" id="passou"></h3>
+    </div>
+       <input id="mediaDasNotas" type="number" class="inputs" placeholder="Digite a média de aprovação: ">
+  
+     <div class="first">  <input id="primeiraNota" type="number" class="inputs" placeholder="Digite a primeira nota: ">
+       <input id="segundaNota" type="number" class="inputs" placeholder="Digite a segunda nota: ">
+       </div>
+ 
+      <div class="second"> <input id="terceiraNota" type="number" class="inputs" placeholder="Digite a terceira nota: ">
+       <input id="QuartaNota" type="number" class="inputs" placeholder="Digite a quarta nota: ">    </div>
+    </div>
+    <botton id="mudarBotao" class="botao" onclick="calcular()">Calcular</botton>
+    
+
+    <script src="./conta.js"></script>
+    
+</body>
+</html>
